@@ -1,5 +1,5 @@
 # Load data
-df <- read.table("C:/Users/kiros/Downloads/height_weight.txt", header = TRUE)
+df <- read.table("height_weight.txt", header = TRUE)
 
 # Fit linear model
 model <- lm(Weight ~ Height, data = df)
