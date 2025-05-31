@@ -3,7 +3,7 @@ library(Rcpp)
 
 # Compile and load the optimized C++ matrix multiplication code
 # Adjust the path below to point to your actual C++ file location
-sourceCpp("C:/Users/kiros/OneDrive/Desktop/c_lang/matrix_mult.cpp")
+sourceCpp("matrix_mult.cpp")
 
 # Set the size of the matrices
 n <- 512
